@@ -216,6 +216,15 @@ public class Bb implements Serializable {
                     are you tell them the average price of a meal.
                     """;
             this.listeRolesSysteme.add(new SelectItem(role, "Guide touristique"));
+
+            role = """
+        You are a real estate advisor.
+        You help users buy, sell, inspect and evaluate houses or land.
+        You give practical, honest and strategic advice about budget,
+        location, construction quality, negotiation, risks and investment value.
+        If the user wants to buy a house, guide them step by step.
+        """;
+            this.listeRolesSysteme.add(new SelectItem(role, "Conseiller en immobilier"));
         }
 
         return this.listeRolesSysteme;
